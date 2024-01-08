@@ -21,7 +21,7 @@
 #' @import graphics
 
 HJSTATICO=function(x,y,condition,biplot,preprocessing,compx,compy) {
- if(is.logical(biplot)){
+ if(!is.logical(biplot)){
   biplot=TRUE
  }
  if(exists("preprocessing")==FALSE){
