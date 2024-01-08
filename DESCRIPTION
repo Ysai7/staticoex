@@ -1,0 +1,25 @@
+Package: staticoex
+Title: A combination of the advantages of the STATICO and HJ-Biplot methods
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given="Mariela", family ="Gonzales", email="margonzal@espol.edu.ec", role = c("aut", "cre")),
+    person(given="Ysai", family ="Ronquillo",email="yronquil@espol.edu.ec",role="ctb",comment=c(ORCID="0009-0006-4113-1041")),
+    person(given="Gema", family ="Zambrano", email="gemazamb@espol.edu.ec", role = "ctb"),
+    person(given="George", family ="Acosta", email="gvacosta@espol.edu.ec", role = "ctb"))
+Description: Calculates a series of indices (contributions and representation qualities) and
+    presents graphs in the same reference system for the analysis of the stable part of the
+    common structure of two three-way data matrices by combining the advantages of the STATICO
+    and HJ-Biplot methods.
+Imports:
+    pracma,
+    MFAg,
+    ade4,
+    methods,
+    graphics
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
