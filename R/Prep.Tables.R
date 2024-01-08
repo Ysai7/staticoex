@@ -3,7 +3,7 @@
 #' @param x set of matrices juxtaposed in vertical order containing the data of the P variables.
 #' @param y set of matrices juxtaposed in vertical order containing the data of the Q variables.
 #' @param condition A factor object representing the categorical variable that will define the third-path for the analysis.
-#' @param preprocessing Standardization method to be used. preprocessing="B.Total" performs total standardization, preprocessing="B.Partial" partial standardization, preprocessing="A.Norma" standardization by standard.
+#' @param preprocessing Standardization method to be used. preprocessing="B.Total" performs total standardization, preprocessing="B.Partial" partial standardization, preprocessing="A.Norma" <by default> standardization by standard.
 #'
 #' @return Processed table and the condition index
 #' @export Prep.Tables
