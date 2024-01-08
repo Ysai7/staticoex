@@ -3,7 +3,7 @@
 #' @param y set of matrices juxtaposed in vertical order containing the data of the Q variables.
 #' @param condition A factor object representing the categorical variable that will define the third-path for the analysis.
 #' @param biplot Logical value, TRUE by default, that will calculate and graphically represent the compromise and intra-structure considering the HJ-Biplot perspective.
-#' @param preprocessing Standardization method to be used. preprocessing="B.Total" performs total standardization, preprocessing="B.Partial" partial standardization, preprocessing="A.Norma" standardization by standard.
+#' @param preprocessing Standardization method to be used. preprocessing="B.Total" performs total standardization, preprocessing="B.Partial" partial standardization, preprocessing="A.Norma" <by default> standardization by standard.
 #' @param compx Indicates the component of x to be used for the representation of the compromise and intra-structure plots on the bi-factor plane.
 #' @param compy Indicates the component of y to be used for the representation of the compromise and intra-structure plots on the bi-factor plane.
 #' @return A series of indices (contributions and representation qualities) and compromise and intra-structure plots
